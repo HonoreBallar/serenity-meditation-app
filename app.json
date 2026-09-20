@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Serenity",
+    "slug": "serenity-meditation-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6C4FD8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.honore.serenity"
+    },
+    "android": {
+      "package": "com.honore.serenity",
+      "adaptiveIcon": {
+        "backgroundColor": "#6C4FD8"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#6C4FD8"
+        }
+      ]
+    ]
+  }
+}
